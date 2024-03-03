@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Shop - Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-and-name">
+            <img src="gameimg.jpg" alt="Game Shop Logo">
+            <h1>Skate</h1>
+        </div>
+        <!-- Navigation Links (similar to the main page) -->
+        <!-- ... -->
+    </header>
+
+    <main class="cart-page">
+        <section class="parallax-background">
+            <video autoplay loop muted src="God of War Ragnarök - _Father and Son_ Cinematic Trailer _ PS5 & PS4 Games.mp4"></video>
+            <div class="content-overlay"></div>
+        </section>
+
+        <section class="payment-card">
+            <div class="game-details">
+                <div class="game-photo">
+                    <img src="gow.jpg" alt="Game Photo">
+                </div>
+                <div class="details">
+                    <h2>GOD OF WAR II</h2>
+                    <p>Price: $49.00</p>
+                </div>
+            </div>
+
+            <div class="cart-options">
+                <label for="coupon">Coupon Code:</label>
+                <input type="text" id="coupon" name="coupon" placeholder="Enter code">
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="uk">INDIA</option>
+                    <!-- Add more country options as needed -->
+                </select>
+            </div>
+
+            <div class="payment-options">
+                <h3>Select Payment Method:</h3>
+                <label>
+                    <input type="radio" name="payment" value="card" checked>
+                    Card
+                </label>
+                <label>
+                    <input type="radio" name="payment" value="upi">
+                    UPI
+                </label>
+            </div>
+
+            <div class="payment-button">
+                <button>Proceed to Payment</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Game Shop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
